@@ -19,12 +19,13 @@ int main()
     cin >> A;
     cout << "Please enter a value for B: ";
     cin >> B;
-
+    cout << endl;
     cout << "Solving ";
     cout << A;
     cout << "x+";
     cout << B;
     cout << "=0 for X..." << endl;
+    cout << endl;
     X = - B / A;
     cout << "The answer is:" << endl;
     cout << "x=";
