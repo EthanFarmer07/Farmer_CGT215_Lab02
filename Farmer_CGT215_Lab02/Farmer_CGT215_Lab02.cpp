@@ -2,11 +2,18 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World! + Changes have been made.\n";
-    std::cout << "More changes have been made. To file for testing.\n";
+    float A;
+    float B;
+    float X;
+    cout << "Please enter a value for A: ";
+    cin >> A;
+    cout << "A=" << A << endl;
+    B = (A * 4) + 1;
+    cout << "And B=" << B << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
