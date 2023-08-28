@@ -24,10 +24,12 @@ int main()
     cout << A;
     cout << "x+";
     cout << B;
-
+    cout << "=0 for X..." << endl;
     X = - B / A;
+    cout << "The answer is:" << endl;
+    cout << "x=";
+    cout << X;
 
-    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
